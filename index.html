@@ -1,72 +1,65 @@
-<!DOCTYPE html>
 <html lang="en">
-	<head>
-	  	<meta charset="utf-8">
-	  	<meta http-equiv="X-UA-Compatible" content="IE=edge">
-	  	<meta name="viewport" content="width=device-width, initial-scale=1">
-	  	<link href='https://fonts.googleapis.com/css?family=Gudea' rel='stylesheet' type='text/css'>
-	  	<link href="lib/bootstrap/css/bootstrap.css" rel="stylesheet">
-	  	<link rel="stylesheet" type="text/css" href="style.css" />
-	  	<script src="https://use.fontawesome.com/d32479ac5d.js"></script>
-	  	<title>My Website</title>
-	</head>
-	<body>
-		<nav class="navbar navbar-default" style="background-color:white">
-			<div class="container-fluid">
-				<div class="navbar-header">
-			    	<a id="name" class="navbar-brand" href="#">Shehroze Khan</a>
-			       	<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
-			            <span class="sr-only">Toggle navigation</span>
-			            <span class="icon-bar"></span>
-			            <span class="icon-bar"></span>
-			            <span class="icon-bar"></span>
-			    	</button>
-				</div>
-			    <div id="navbar" class="navbar-collapse collapse">
-			    	<ul class="nav navbar-nav navbar-right">
-			            <li class="active"><a href="index.html">About</a></li>
-			            <li><a href="projects.html">Projects</a></li>
-			        </ul>
-			    </div>
-			</div>
-		</nav>
-	    <div id="main" class="container">
-	    	<div id="content" class="container-fluid text-center">
-	    		<br>
-	    		<div class="row">
-				    <div class="col-lg-6">
-				      <img id="me" src="images/myimage.jpg" class="img-responsive img-circle" />
-				    </div>
-				    <div class="col-lg-6">
-				    	<h3>Hi! I'm Shehroze.</h3>
-				    	<p class="text-justify">
-				    		I hail from the vibrant city of Lahore in Pakistan. Having lived in my hometown all my life, I had the chance to study outside my country when I got accepted to <a href="http://nyuad.nyu.edu/en/" target="_blank">NYU Abu Dhabi</a> in 2014. I am a junior now, studying computer science, and presently in New York for my study away semesters.
-				    	</p>
-				    	<p class="text-justify">
-							My time in college has helped turn my love for traveling into a reality. In these past few years, I have been all over and, during that time, been trying to meet new people, experience new cultures and have adventures that would later make up for great stories. For hobbies, I enjoy playing football (soccer) and FIFA, going to the gym, watching historical documentaries and trying (but struggling) to speak Spanish. More often than not, however, I am dabbling in random activities and random strolls around the city.
-						</p>
-						<p class="text-justify">
-							Also, I am a huge foodie! On the weekends (and most weekdays) when I am not coding, you can find me at different spots throughout New York as I try to satiate specific food cravings.
-				    	</p>
-				    	<p class="text-justify">
-				    		As a full stack developer, I build useful and impactful projects. If you have any interesting ideas for collaboration, please don't hesitate to contact me at any of the options below.
-				    	</p>
-				    </div>
-				</div>
-	    	</div>
-		    <!-- Footer -->
-		    <footer class="footer">
-		    	<div id="social" class="container text-center">
-			        <a href="tel:929-215-9829"><i class="fa fa-phone"></i></a>
-			        <a href="mailto:shehroze@nyu.edu"><i class="fa fa-envelope"></i></a>
-			        <a href="https://github.com/shehrozekhan" target="_blank"><i class="fa fa-github"></i></a>
-			        <a href="https://www.linkedin.com/in/shehroze-khan-b4b625b3/" target="_blank"><i class="fa fa-linkedin"></i></a>
-			    </div>
-	    	</footer>
-	    </div>
 
-		<script src="lib/js/jquery-3.1.0.js"></script>
-		<script src="lib/bootstrap/js/bootstrap.js"></script>
-		<script type="text/javascript" src="main.js"></script>
-	</body>
+    <head>
+        <title>Shehroze Khan</title>
+
+        <meta charset="UTF-8">
+        <meta name="author" content="Shehroze Khan">
+        <meta name="keywords" content="shehroze khan, grad student, ai research, ualberta, nyu">
+        <meta name="description" content="Bio, links, and other info about Shehroze Khan, Computing Science masters student at UAlberta.">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link href="static/shehroze.css" rel="stylesheet">
+        <link rel="shortcut icon" type="image/png" href="static/S.png" />
+    </head>
+
+    <body>
+        <div id="container">
+            <h1 id="name">
+                <a href="https://shehrozekhan.github.io">Shehroze Khan</a>
+            </h1>
+
+            <div id="about-content">  
+                <div id="pic-contact">
+                    <img src="static/shehroze.jpg" alt="Shehroze Khan">
+                    <div id="contant-info">
+                        <p class="about-desc" style="">
+                            <b>Contact:</b><br>
+                            Dept. of Computing Science<br>
+                            University of Alberta<br>
+                            Edmonton, Alberta, Canada<br>
+                            T6G 2E8<br>
+                            <br>
+                            <a href="mailto:shehroze@ualberta.ca" class="custom-link">shehroze@ualberta.ca</a><br>
+                            <br>
+                            <b>LinkedIn:</b><br>
+                            <a href="https://www.linkedin.com/in/shehroze-khan/" class="custom-link">in/shehroze-khan</a>
+                        </p>
+                    </div>
+                </div>
+
+                <div id="about-info">
+                    <span class="headline">Hi, I'm Shehroze.</span>
+                    <p class="about-desc">
+                        I am a Master's student (MSc, Thesis) at the <a href="https://www.ualberta.ca/computing-science/index.html" target="_blank" class="custom-link">University of Alberta</a> and part of graduate research at the <a href="https://www.amii.ca" target="_blank" class="custom-link"> Alberta Machine Intelligence Institute</a>. I work under the supervision of <a href="https://jrwright.info/index.html" target="_blank" class="custom-link">James R. Wright</a>.
+                        <br><br>
+                        Previously, I earned my Bachelor's degree in Computer Science (BSc, honors) from <a href="https://nyuad.nyu.edu/en/" target="_blank" class="custom-link">New York University Abu Dhabi</a> in May 2018 on a full academic scholarship. I have also studied abroad at NYU London (2015), NYU Florence (2016), and NYU New York (2016-17). My undergraduate capstone supervisor was <a href="https://www.nizarhabash.com" target="_blank" class="custom-link">Nizar Habash</a>.
+                    </p>
+                    <p class="about-desc">
+                        <span class="subheading">Research</span>
+                        My research area is <b>artificial intelligence</b>, specifically the subdomains of <b>machine learning</b>, <b>algorithmic game theory</b> and <b>mechanism design</b>. I primarily investigate the use of machine learning models to simulate and predict human behavior in strategic settings. My current project applies these modeling techniques to the problem of misinformation on social media platforms.
+                    </p>
+                    <p class="about-desc">
+                        <span class="subheading">Publications</span>
+                        [1] <a href="https://www.aclweb.org/anthology/C18-2033.pdf" target="_blank" class="custom-link">A Cross-lingual Messenger with Keyword Searchable Phrases for the Travel Domain</a>.<br>
+                        <b>Shehroze Khan</b>, Jihyun Kim, Tarik Zulfikarpasic, Peter Chen, and Nizar Habash.<br>
+                        <em>Proceedings of the 27th International Conference on Computational Linguistics: System Demonstrations, Santa Fe, New Mexico, USA, August 20-26, 2018.</em>
+                    </p>
+                    <p class="about-desc">
+                        <span class="subheading">Professional Experience</span>
+                        I have worked professionally in the capacity of a software engineer and also as a technology consultant; my work projects have involved front-end web development (Vue; React), backend development (Node; Flask), mobile development (Swift; React Native), and data science (NumPy; Scikit-learn). My work, teaching, and internship experiences have been based in Abu Dhabi, Dubai, Edmonton, and New York.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </body>
 </html>
