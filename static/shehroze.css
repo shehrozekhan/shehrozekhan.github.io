@@ -62,6 +62,7 @@ body {
 
 #pic-contact img {
     width: 230px;
+    max-height: 300px;
 }
 
 #about-info {
