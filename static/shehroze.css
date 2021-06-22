@@ -73,6 +73,10 @@ body {
     padding-left: 15px;
 }
 
+#contact {
+    display: none;
+}
+
 .headline {
     background-color: rgb(255, 241, 210);
     padding: 2px 5px;
@@ -97,44 +101,15 @@ body {
 
 /* Desktop-first responsiveness */
 
-@media screen and (max-width: 960px) {
-    #container {
-        width: 720px;
-    }
-
-    #about-content {
-        width: 700px;
-    }
-
-    #pic-contact img {
-        width: 200px;
-    }
-
-    #about-info {
-        width: 490px;
-    }
-
-    #about-info p {
-        font-size: 22px;
-    }
-
-    #nav {
-        margin-top: 0px;
-    }
-}
-
-@media screen and (max-width: 720px) {
+@media screen and (max-width: 980px) {
     #container {
         width: 100%;
     }
 
-    #name, #nav {
+    #name {
         width: 100%;
         text-align: center;
-    }
-
-    #nav {
-        margin-top: 10px;
+        padding-left: 0;
     }
 
     #about-content {
@@ -142,30 +117,38 @@ body {
         width: 96%;
     }
 
+    #pic-contact {
+        display: flex;
+    }
+
+    #pic-contact div {
+        display: none;
+    }
+
     #pic-contact img {
-        width: 230px;
+        margin-left: auto;
+        margin-right: auto;
         display: block;
-        margin: auto;
     }
 
     #about-info {
         width: 100%;
         text-align: center;
         margin: 40px auto 0px;
+        padding: 0;
         left: 0px;
         bottom: 0px;
+        border: none;
     }
 
-    .banner {
-        font-size: 26px;
+    #contact {
+        display: block;
     }
 
     .about-desc {
-        margin-top: 15px;
+        margin-top: 20px;
     }
 
-    #social {
-        top: 0px;
-    }
+
 }
 
